@@ -1,0 +1,27 @@
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+ARTIST
+
+liveonlyontheweb
+Musician & Developer
+
+soundcloud.com/liveonlyontheweb
+github.com/liveonlyontheweb
+
+_______________________________________________________________________________
+
+TECHNOLOGY
+
+React
+Vite
+Three
+Tailwind
+
+_______________________________________________________________________________
+
+FONTS
+
+Monsterrat

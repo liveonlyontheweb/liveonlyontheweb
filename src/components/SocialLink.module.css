@@ -1,0 +1,28 @@
+.social_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.link_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 500;
+}
+
+.link_wrapper > svg {
+  display: inline;
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+.link_wrapper:nth-child(2) {
+  margin: 0 20px;
+}
+
+.link_wrapper:hover {
+  text-decoration: underline;
+}
