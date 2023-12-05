@@ -1,0 +1,14 @@
+version: "3.3"
+
+services:
+  liveonlyontheweb-front:
+    container_name: landing-app
+    build:
+      context: .
+      dockerfile: dockerfile
+    command: bash -c "serve -s dist -l ${PORT}"
+    restart: always
+    ports:
+      - "${PORT}:${PORT}"
+    env_file:
+      - ./.env
