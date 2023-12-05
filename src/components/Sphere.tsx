@@ -1,8 +1,8 @@
 // import { Effects } from '@react-three/drei';
-import { Object3DNode, extend, useFrame } from "@react-three/fiber";
-import { useRef } from "react";
-import { Mesh } from "three";
-import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass.js";
+import { extend, Object3DNode, useFrame } from '@react-three/fiber';
+import { useRef } from 'react';
+import { Mesh } from 'three';
+import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
 
 // https://docs.pmnd.rs/react-three-fiber/tutorials/typescript#extending-threeelements
 // Create our custom element
@@ -12,7 +12,7 @@ class CustomUnrealBloomPass extends UnrealBloomPass {}
 extend({ CustomUnrealBloomPass });
 
 // Add types to ThreeElements elements so primitives pick up on it
-declare module "@react-three/fiber" {
+declare module '@react-three/fiber' {
   interface ThreeElements {
     customUnrealBloomPass: Object3DNode<
       CustomUnrealBloomPass,

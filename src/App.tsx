@@ -1,9 +1,10 @@
-import classNames from "classnames";
-import classes from "./App.module.css";
-import { Canvas } from "@react-three/fiber";
-import Sphere from "./components/Sphere";
-import { OrbitControls } from "@react-three/drei";
-import SocialLinks from "./components/SocialLinks";
+import { OrbitControls } from '@react-three/drei';
+import { Canvas } from '@react-three/fiber';
+import classNames from 'classnames';
+
+import classes from './App.module.css';
+import SocialLinks from './components/SocialLinks';
+import Sphere from './components/Sphere';
 
 const App = () => {
   return (
@@ -22,14 +23,12 @@ const App = () => {
       </Canvas>
 
       <div className={classes.content}>
-        <div className={classNames("text-xl", classes.header)}>
+        <div className={classNames('text-xl', classes.header)}>
           <a type="text/plain" target="_blank" rel="author" href="/humans.txt">
             <h1>liveonlyontheweb</h1>
           </a>
         </div>
-        <p className="text-center text-xs font-medium">
-          it will be an unforgettable virtual tour
-        </p>
+        <p className="text-center text-xs font-medium">virtual tour</p>
         <SocialLinks />
       </div>
     </main>
