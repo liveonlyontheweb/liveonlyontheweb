@@ -15,6 +15,7 @@ const App = () => {
       >
         <OrbitControls
           enableZoom={false}
+          enablePan={false}
           minPolarAngle={Math.PI / 2}
           maxPolarAngle={Math.PI / 2}
         ></OrbitControls>
